@@ -10,7 +10,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="./contact.css">
 </head>
 <body>
 
@@ -30,14 +31,15 @@
   </header>
 <main>
     <section class="contact">
-        <div class="contactez-nous-text">
+        <div class="contact-text">
             <h1>Besoin d'nformation ?</h1>
             <p>contactez-nous</p>
         </div>
-       <div class="contact-form">
-            <label for="nom">Nom</label>
-            <input type = "text" id = "nom" placeholder="Votre nom">
-        </div>
+        <form class="contact-form">
+      <div class="form-group">
+        <label for="nom">Nom</label>
+        <input type="text" id="nom" placeholder="Votre nom" required>
+      </div>
         <div>
             <label for="email">Email</label>
             <input type ="email" id = "email" placeholder="email@gmail.com">
