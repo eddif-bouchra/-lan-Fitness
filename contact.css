@@ -20,7 +20,13 @@ body {
   max-width: 350px;
 }
 .contact-text h1 {
-  font-size: 1.8rem;
+  font-size: 28.8px;
   font-weight: 700;
   margin-bottom: 8px;
+}
+.contact-text p {
+  font-size: 15.2px;
+  opacity: 0.9;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
