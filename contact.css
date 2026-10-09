@@ -64,3 +64,8 @@ textarea {
   background: #ffffff;
   color: #333;
 }
+
+textarea {
+  min-height: 75px;
+  resize: vertical;
+}
