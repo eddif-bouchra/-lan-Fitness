@@ -10,10 +10,11 @@ body {
 .contact{
     min-height: auto;
     padding: 40px 20px;
-    background: linear-gradient(123deg, #ff9f43, #e87512);
-    color: white;
+    background: #FFFFFF
+    color: #333333;
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 40px;
 }
 .contact-text {
@@ -23,21 +24,24 @@ body {
   font-size: 28.8px;
   font-weight: 700;
   margin-bottom: 8px;
+  color: #111111;
 }
 .contact-text p {
   font-size: 15.2px;
   opacity: 0.9;
   text-transform: uppercase;
   letter-spacing: 1px;
+  color: #555555;
 }
 .contact-form {
-  background: rgba(255, 255, 255, 0.1);
+  background: linear-gradient(123deg, #ff9f43, #e87512);
+  color: #ffffff;
   padding: 25px;
   border-radius: 12px;
   backdrop-filter: blur(5px);
   width: 100%;
   max-width: 420px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 8px 24px rgba(232, 117, 18, 0.25);
 }
 .form-group {
   display: flex;
@@ -49,6 +53,7 @@ label {
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 5px;
+  color: #ffffff;
 }
 
 input[type="text"],
